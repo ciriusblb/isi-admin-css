@@ -1,0 +1,82 @@
+
+.sidebar {
+    width: 250px;
+    height: calc(100vh - 60px);
+    border-right: 1px solid var(--lineas);
+    transition: all .3s;
+}
+.sidebar img {
+    width: 30px;
+}
+.sidebar ul {
+    width: 100%;
+    list-style: none;
+}
+.sidebar ul li {
+    height: 50px;
+    position: relative;
+}
+.sidebar ul li a {
+    display: flex;
+    text-decoration: none;
+    color: var(--gris);
+    font-size: 15px;
+    align-items: center;
+}
+.sidebar ul li a div {
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.sidebar ul li.sidebar__active {
+    background: var(--moradoclaro);
+    border-right: 4px solid var(--morado);
+}
+.sidebar ul li.sidebar__active a {
+    font-weight: bold;
+    color: var(--morado);
+
+}
+.sidebar ul li:hover {
+    background: var(--moradoclaro);
+    border-right: 4px solid var(--morado);
+}
+
+
+.sidebar__hide ul li a span {
+    display: none;
+    position: absolute;
+    background: var(--morado);
+    left: 65px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+.sidebar__hide ul li a span::before {
+    position: absolute;
+    content: '';
+    left: -12px;
+    top: 50%;
+    margin-top: -6px;
+    border: 6px solid transparent;
+    border-right-color: var(--morado);
+}
+.sidebar__hide ul li a {
+    color: #fff;
+}
+.sidebar__hide ul li.sidebar__active a {
+    color: #fff;
+}
+.sidebar__hide {
+    width: 60px;
+}
+.sidebar__hide ul li:hover a span {
+    display: block;
+}

@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Platos</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="checkbox.css">
+    <link rel="stylesheet" href="main_button.css">
+    <link rel="stylesheet" href="tabla.css">
+    <link rel="stylesheet" href="paginacion.css">
+    <link rel="stylesheet" href="proyectos.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_left">
+            <div>
+                <span id="btn__header_menu" ><i class="fas fa-bars"></i></span>
+            </div>
+            <img src="img/jpg/isi.jpg" alt="">
+            <strong>Ingeniería de Sistema e Informática</strong>
+        </div>
+        <div class="header_right">
+            <div>
+                <span><i class="fas fa-user"></i></span>
+            </div>
+            <span>
+                Yurema Vargas Ocola
+            </span>
+        </div>
+    </header>
+    <main>
+        <aside class="sidebar" id="sidebar">
+            <ul>
+                <li class=""><a href=""><div><img src="img/logo-menu/home.png" alt=""></div><span>Home</span></a></li>
+                <li class="sidebar__active"><a href=""><div><img src="img/logo-menu/proyectos.png" alt=""></div><span>Proyectos</span></a></li>
+                <li><a href=""><div><img src="img/logo-menu/eventos.png" alt=""></div><span>Eventos</span></a></li>
+                <li><a href=""><div><img src="img/logo-menu/laboratorios.png" alt=""></div><span>Laboratorios</span></a></li>
+                <li><a href=""><div><img src="img/logo-menu/noticias.png" alt=""></div><span>Noticias</span></a></li>
+                <li><a href=""><div><img src="img/logo-menu/docentes.png" alt=""></div><span>Docentes</span></a></li>
+                <li><a href=""><div><img src="img/logo-menu/logout.png" alt=""></div><span>Salir</span></a></li>
+            </ul>
+        </aside>
+        <section style="width: 100%">
+            <div class="proyectos">
+               
+                <div class="pyts__left pyts__section">
+                    <div class="pyts__titulo">
+                        <div>
+                            <h4>FILTROS</h4>
+                        </div>
+                    </div>
+                    <div class="pyts__content">
+
+                    </div>
+                </div>
+            
+                <div class="pyts__right">
+                    <div class="pyts__herramientas">
+                        <div class="crud">
+                            <button class="main_button nuevo main__button_active"><span><i class="fas fa-plus"></i></span></button>
+                            <button class="main_button editar "><span><i class="fas fa-pencil-alt"></i></span></button>
+                            <button class="main_button eliminar "><span><i class="fas fa-trash"></i></span></button>
+                        </div>
+                        <div class="filtros">
+                            <div class="buscador">
+                                <select name="" id="">
+                                    <option value="">Buscar por</option>
+                                    <option value="">Nombre</option>
+                                    <option value="">Tipo</option>
+                                    <option value="">Duración</option>
+                                </select>
+                                <input type="text" placeholder="Ingrese proyecto a buscar">
+                                <div>
+                                    <span><i class="fas fa-search"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pyts__tabla tabla__scrollbar">
+                       <table class="tabla">
+                          <thead>
+                                <tr>
+                                    <th>ITEM</th>
+                                    <th>PROYECTO</th>
+                                    <th>AÑO</th>
+                                    <th>ÁREA</th>
+                                    <th>SEMESTRE</th>
+                                    <th>FECHA SUBIDA</th>
+                                </tr>
+                            </thead>
+                          <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td width="400px">Pizza linda Andahuaylina con...</td>
+                                    <td>2019-II</td>
+                                    <td>Robótica</td>
+                                    <td>9no Semestre</td>
+                                    <td>
+                                        02/02/2020
+                                    </td>
+                                </tr>
+                                <tr class="tr__active">
+                                    <td>2</td>
+                                    <td width="400px">Pizza linda Andahuaylina con...</td>
+                                    <td>2019-II</td>
+                                    <td>Robótica</td>
+                                    <td>9no Semestre</td>
+                                    <td>
+                                        02/02/2020
+                                    </td>
+                                </tr>
+                               <tr>
+                                    <td>3</td>
+                                    <td width="400px">Pizza linda Andahuaylina con...</td>
+                                    <td>2019-II</td>
+                                    <td>Robótica</td>
+                                    <td>9no Semestre</td>
+                                    <td>
+                                        02/02/2020
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td width="400px">Pizza linda Andahuaylina con...</td>
+                                    <td>2019-II</td>
+                                    <td>Robótica</td>
+                                    <td>9no Semestre</td>
+                                    <td>
+                                        02/02/2020
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td width="400px">Pizza linda Andahuaylina con...</td>
+                                    <td>2019-II</td>
+                                    <td>Robótica</td>
+                                    <td>9no Semestre</td>
+                                    <td>
+                                        02/02/2020
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td width="400px">Pizza linda Andahuaylina con...</td>
+                                    <td>2019-II</td>
+                                    <td>Robótica</td>
+                                    <td>9no Semestre</td>
+                                    <td>
+                                        02/02/2020
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td width="400px">Pizza linda Andahuaylina con...</td>
+                                    <td>2019-II</td>
+                                    <td>Robótica</td>
+                                    <td>9no Semestre</td>
+                                    <td>
+                                        02/02/2020
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td width="400px">Pizza linda Andahuaylina con...</td>
+                                    <td>2019-II</td>
+                                    <td>Robótica</td>
+                                    <td>9no Semestre</td>
+                                    <td>
+                                        02/02/2020
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td width="400px">Pizza linda Andahuaylina con...</td>
+                                    <td>2019-II</td>
+                                    <td>Robótica</td>
+                                    <td>9no Semestre</td>
+                                    <td>
+                                        02/02/2020
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td width="400px">Pizza linda Andahuaylina con...</td>
+                                    <td>2019-II</td>
+                                    <td>Robótica</td>
+                                    <td>9no Semestre</td>
+                                    <td>
+                                        02/02/2020
+                                    </td>
+                                </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                    <div class="pyts__paginacion">
+                        <div class="pagination">
+                            <a href="#"><span><i class="fas fa-caret-left"></i></span><span><i class="fas fa-caret-left"></i></span></a>
+                            <a href="#"><span><i class="fas fa-caret-left"></i></span></a>
+                            <a href="#" class="pag__active">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">6</a>
+                            <a href="#"><span><i class="fas fa-caret-right"></i></span></a>
+                            <a href="#"><span><i class="fas fa-caret-right"></i></span><span><i class="fas fa-caret-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+    <script src="js/all.min.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
+

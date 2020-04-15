@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+
+:root {
+  --borderInput: #EDEDED;
+  --grisclaro: #EDEDED;
+    
+  --morado: #DB0455;
+  --moradoclaro: #EBE7F2;
+  --amarillo: #FFBE00;
+  --gris: #707070;
+    --azul: #007BFF;
+    --grisoscuro: #6C757D;
+    
+  --fondo: #F5F6FA;
+  --lineas: #E5E6EB;
+  --fondoimg: #FAFAFA;
+    
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+html{
+    font-size: 16px;
+}
+body::-webkit-scrollbar {
+    width: 7px;
+    background-color: rgb(0,0,0,0);
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset rgb(0,0,0,0);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--morado);
+}
+body {
+    overflow-x: hidden;
+}
+
+/*
+.scrollbar::-webkit-scrollbar {
+    width: 7px;
+    background-color: rgb(0,0,0,0);
+}
+.scrollbar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset rgb(0,0,0,0);
+}
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--gris);
+}
+.scrollbar {
+    overflow-x: hidden;
+}
+*/

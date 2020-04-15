@@ -1,0 +1,124 @@
+
+:root {
+/*  --verde: #22B56E;
+  --gris: #707070;
+  --verdeclaro: #ECF8F5;
+    --azulgris: #E5E6EB;
+    --azulblanco: #F5F6FA;
+    --rojoblanco: #EDEDED;
+    --azul: #007BFF;
+    --rojo: #DC3545;
+    --rosablanco: #FAFAFA;*/
+}
+main {
+    background: none;
+    display: flex;
+}
+.proyectos {
+    width: 100%;
+    display: flex;
+}
+
+
+
+
+.pyts__left {
+    width: 20%;
+    height: calc(100vh - 60px);
+}
+
+.pyts__section {
+    padding: 15px 30px;
+    border-right: 1px solid var(--lineas); 
+}
+.pyts__section .pyts__titulo {
+    border: 1px solid var(--morado);
+    background: var(--moradoclaro);
+    color: var(--morado);
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.pyts__right {
+    width: 80%;
+    height: calc(100vh - 60px);
+
+}
+.pyts__right .pyts__herramientas {
+    height: 100px;
+    display: flex;
+    border-bottom: 1px solid var(--lineas);
+}
+.pyts__right .pyts__herramientas .filtros {
+    order: 1;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pyts__right .pyts__herramientas .filtros .buscador {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pyts__right .pyts__herramientas .filtros .buscador select {
+    border: none;
+    outline: 0;
+}
+.pyts__right .pyts__herramientas .filtros .buscador input {
+    padding: 5px 10px;
+    border: 1px solid var(--borderInput);
+    border-radius: 10px;
+    font-size: 14px;
+    outline: 0;
+    height: 30px;
+    width: 400px;
+}
+.pyts__right .pyts__herramientas .filtros .buscador div {
+    width: 30px;
+    height: 30px;
+    background: var(--fondoimg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--gris);
+    font-size: 14px;
+}
+
+
+.pyts__right .pyts__herramientas .crud {
+    order: 2;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.pyts__right .pyts__tabla {
+    height: calc(100vh - 210px);
+}
+
+.pyts__right .pyts__paginacion {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--lineas);
+
+}
+
+
+
+
+
+
+

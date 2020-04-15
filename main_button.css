@@ -1,0 +1,54 @@
+
+.main_button {
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    margin: 0 2px;
+}
+.main_button.nuevo {
+    border: 2px solid var(--morado);
+    color: var(--morado);
+}
+.main_button.nuevo:hover {
+    background: var(--moradoclaro);
+}
+.main_button.nuevo.main__button_active {
+    background: var(--morado);
+    color: #fff;
+}
+.main_button.editar {
+    border: 2px solid var(--azul);
+    color: var(--azul);
+}
+.main_button.editar:hover {
+    background: rgba(0,123,255,0.1);
+}
+.main_button.editar.main__button_active {
+    background: var(--azul);
+    color: #fff;
+}
+.main_button.eliminar {
+    border: 2px solid var(--grisoscuro);
+    color: var(--grisoscuro);
+}
+.main_button.eliminar:hover {
+    background: rgba(108,117,125,0.1);
+}
+.main_button.eliminar.main__button_active {
+    background: var(--grisoscuro);
+    color: #fff;
+}
+.main_button.atras {
+    border: 2px solid var(--gris);
+    color: var(--grisoscuro);
+}
+.main_button.atras:hover {
+    background: rgba(108,117,125,0.1);
+}
+.main_button.atras.main__button_active {
+    background: var(--gris);
+    color: #fff;
+}
